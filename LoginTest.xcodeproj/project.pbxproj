@@ -360,7 +360,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../inigmaSDKDemo/inigmaSDKDemo/SDK\"",
-					"\"$(SRCROOT)/SDK\"",
 					"\"$(SRCROOT)/inigmaSDKDemo/SDK\"",
 					"\"$(SRCROOT)/LoginTest/SDK\"",
 				);
@@ -381,7 +380,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../inigmaSDKDemo/inigmaSDKDemo/SDK\"",
-					"\"$(SRCROOT)/SDK\"",
 					"\"$(SRCROOT)/inigmaSDKDemo/SDK\"",
 					"\"$(SRCROOT)/LoginTest/SDK\"",
 				);
