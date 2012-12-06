@@ -23,7 +23,6 @@
     IBOutlet UIButton *TorchButton;
     void* m_pScanner;
     int m_bTorch;
-    
 }
 
 -(void) initLocal;
