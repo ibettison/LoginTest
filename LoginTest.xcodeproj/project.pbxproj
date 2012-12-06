@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860E83D016677760005FE351 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860E83CF16677760005FE351 /* UIKit.framework */; };
+		860E83D216677760005FE351 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860E83D116677760005FE351 /* Foundation.framework */; };
+		860E83D416677760005FE351 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860E83D316677760005FE351 /* CoreGraphics.framework */; };
+		860E83DA16677760005FE351 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 860E83D816677760005FE351 /* InfoPlist.strings */; };
+		860E83DC16677760005FE351 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 860E83DB16677760005FE351 /* main.m */; };
+		860E83E016677760005FE351 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 860E83DF16677760005FE351 /* AppDelegate.m */; };
+		860E83E216677760005FE351 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 860E83E116677760005FE351 /* Default.png */; };
+		860E83E416677760005FE351 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 860E83E316677760005FE351 /* Default@2x.png */; };
+		860E83E616677760005FE351 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 860E83E516677760005FE351 /* Default-568h@2x.png */; };
+		860E83E916677760005FE351 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860E83E716677760005FE351 /* MainStoryboard.storyboard */; };
+		860E83EC16677760005FE351 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 860E83EB16677760005FE351 /* ViewController.m */; };
+		860E83F416677A82005FE351 /* LoggedInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 860E83F316677A82005FE351 /* LoggedInViewController.m */; };
+		869500B9166CBD3300E3319E /* ScanViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 869500B8166CBD3300E3319E /* ScanViewController.mm */; };
+		869500E3166CBDA000E3319E /* Scanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 869500DC166CBDA000E3319E /* Scanner.cpp */; };
+		869500E4166CBDA000E3319E /* i-nigmaSdk_iPhone_1.49.doc in Resources */ = {isa = PBXBuildFile; fileRef = 869500DF166CBDA000E3319E /* i-nigmaSdk_iPhone_1.49.doc */; };
+		869500E5166CBDA000E3319E /* libi_nigmaSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 869500E1166CBDA000E3319E /* libi_nigmaSdk.a */; };
+		869500E6166CBDA000E3319E /* libi_nigmaSdk_simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 869500E2166CBDA000E3319E /* libi_nigmaSdk_simulator.a */; };
+		869500E8166CBE9E00E3319E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869500E7166CBE9E00E3319E /* AVFoundation.framework */; };
+		869500EA166CBEBD00E3319E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869500E9166CBEBD00E3319E /* CoreVideo.framework */; };
+		869500EC166CBED700E3319E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869500EB166CBED700E3319E /* CoreMedia.framework */; };
+		8695014F166CF4DD00E3319E /* scan_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8695014E166CF4DD00E3319E /* scan_button.png */; };
+		86950155166D189100E3319E /* double_beep.aif in Resources */ = {isa = PBXBuildFile; fileRef = 86950154166D189100E3319E /* double_beep.aif */; };
+		86978B1D1668EA7700CEC49D /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86978B1C1668EA7700CEC49D /* MenuItems.plist */; };
+		8698C4C6166E0845007704BE /* store-scanner-beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8698C4C5166E0845007704BE /* store-scanner-beep.mp3 */; };
+		8698C4D5166E3207007704BE /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8698C4D4166E3207007704BE /* click.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		860E83CB16677760005FE351 /* LoginTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		860E83CF16677760005FE351 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		860E83D116677760005FE351 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		860E83D316677760005FE351 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		860E83D716677760005FE351 /* LoginTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginTest-Info.plist"; sourceTree = "<group>"; };
+		860E83D916677760005FE351 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		860E83DB16677760005FE351 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		860E83DD16677760005FE351 /* LoginTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginTest-Prefix.pch"; sourceTree = "<group>"; };
+		860E83DE16677760005FE351 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		860E83DF16677760005FE351 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		860E83E116677760005FE351 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = LoginTest/Default.png; sourceTree = "<group>"; };
+		860E83E316677760005FE351 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "LoginTest/Default@2x.png"; sourceTree = "<group>"; };
+		860E83E516677760005FE351 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "LoginTest/Default-568h@2x.png"; sourceTree = "<group>"; };
+		860E83E816677760005FE351 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		860E83EA16677760005FE351 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = LoginTest/ViewController.h; sourceTree = "<group>"; };
+		860E83EB16677760005FE351 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = LoginTest/ViewController.m; sourceTree = "<group>"; };
+		860E83F216677A82005FE351 /* LoggedInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggedInViewController.h; path = LoginTest/LoggedInViewController.h; sourceTree = "<group>"; };
+		860E83F316677A82005FE351 /* LoggedInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggedInViewController.m; path = LoginTest/LoggedInViewController.m; sourceTree = "<group>"; };
+		869500B7166CBD3300E3319E /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		869500B8166CBD3300E3319E /* ScanViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScanViewController.mm; sourceTree = "<group>"; };
+		869500DC166CBDA000E3319E /* Scanner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scanner.cpp; sourceTree = "<group>"; };
+		869500DD166CBDA000E3319E /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		869500DF166CBDA000E3319E /* i-nigmaSdk_iPhone_1.49.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-nigmaSdk_iPhone_1.49.doc"; sourceTree = "<group>"; };
+		869500E0166CBDA000E3319E /* i_nigma_sdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = i_nigma_sdk.h; sourceTree = "<group>"; };
+		869500E1166CBDA000E3319E /* libi_nigmaSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libi_nigmaSdk.a; sourceTree = "<group>"; };
+		869500E2166CBDA000E3319E /* libi_nigmaSdk_simulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libi_nigmaSdk_simulator.a; sourceTree = "<group>"; };
+		869500E7166CBE9E00E3319E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		869500E9166CBEBD00E3319E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		869500EB166CBED700E3319E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8695014E166CF4DD00E3319E /* scan_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan_button.png; sourceTree = "<group>"; };
+		86950154166D189100E3319E /* double_beep.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = double_beep.aif; path = LoginTest/double_beep.aif; sourceTree = "<group>"; };
+		86978B1C1668EA7700CEC49D /* MenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuItems.plist; sourceTree = "<group>"; };
+		8698C4C5166E0845007704BE /* store-scanner-beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "store-scanner-beep.mp3"; sourceTree = "<group>"; };
+		8698C4D4166E3207007704BE /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		860E83C816677760005FE351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869500EC166CBED700E3319E /* CoreMedia.framework in Frameworks */,
+				869500EA166CBEBD00E3319E /* CoreVideo.framework in Frameworks */,
+				869500E8166CBE9E00E3319E /* AVFoundation.framework in Frameworks */,
+				860E83D016677760005FE351 /* UIKit.framework in Frameworks */,
+				860E83D216677760005FE351 /* Foundation.framework in Frameworks */,
+				860E83D416677760005FE351 /* CoreGraphics.framework in Frameworks */,
+				869500E5166CBDA000E3319E /* libi_nigmaSdk.a in Frameworks */,
+				869500E6166CBDA000E3319E /* libi_nigmaSdk_simulator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		860E83C016677760005FE351 = {
+			isa = PBXGroup;
+			children = (
+				860E83D516677760005FE351 /* LoginTest */,
+				860E83CE16677760005FE351 /* Frameworks */,
+				860E83CC16677760005FE351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		860E83CC16677760005FE351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				860E83CB16677760005FE351 /* LoginTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		860E83CE16677760005FE351 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				869500EB166CBED700E3319E /* CoreMedia.framework */,
+				869500E9166CBEBD00E3319E /* CoreVideo.framework */,
+				869500E7166CBE9E00E3319E /* AVFoundation.framework */,
+				860E83CF16677760005FE351 /* UIKit.framework */,
+				860E83D116677760005FE351 /* Foundation.framework */,
+				860E83D316677760005FE351 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		860E83D516677760005FE351 /* LoginTest */ = {
+			isa = PBXGroup;
+			children = (
+				860E83E716677760005FE351 /* MainStoryboard.storyboard */,
+				86950079166CA5FD00E3319E /* View Controllers */,
+				8695007F166CA69100E3319E /* Controllers */,
+				860E83D616677760005FE351 /* Supporting Files */,
+			);
+			path = LoginTest;
+			sourceTree = "<group>";
+		};
+		860E83D616677760005FE351 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				869500DC166CBDA000E3319E /* Scanner.cpp */,
+				869500DD166CBDA000E3319E /* Scanner.h */,
+				869500DE166CBDA000E3319E /* SDK */,
+				8695007E166CA65200E3319E /* Resources */,
+				860E83D716677760005FE351 /* LoginTest-Info.plist */,
+				860E83D816677760005FE351 /* InfoPlist.strings */,
+				860E83DB16677760005FE351 /* main.m */,
+				860E83DD16677760005FE351 /* LoginTest-Prefix.pch */,
+				86978B1C1668EA7700CEC49D /* MenuItems.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86950079166CA5FD00E3319E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				860E83F216677A82005FE351 /* LoggedInViewController.h */,
+				860E83F316677A82005FE351 /* LoggedInViewController.m */,
+				860E83EA16677760005FE351 /* ViewController.h */,
+				860E83EB16677760005FE351 /* ViewController.m */,
+				869500B7166CBD3300E3319E /* ScanViewController.h */,
+				869500B8166CBD3300E3319E /* ScanViewController.mm */,
+			);
+			name = "View Controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8695007E166CA65200E3319E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8698C4D4166E3207007704BE /* click.wav */,
+				8698C4C5166E0845007704BE /* store-scanner-beep.mp3 */,
+				86950154166D189100E3319E /* double_beep.aif */,
+				8695014E166CF4DD00E3319E /* scan_button.png */,
+				860E83E116677760005FE351 /* Default.png */,
+				860E83E316677760005FE351 /* Default@2x.png */,
+				860E83E516677760005FE351 /* Default-568h@2x.png */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8695007F166CA69100E3319E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				860E83DE16677760005FE351 /* AppDelegate.h */,
+				860E83DF16677760005FE351 /* AppDelegate.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		869500DE166CBDA000E3319E /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				869500DF166CBDA000E3319E /* i-nigmaSdk_iPhone_1.49.doc */,
+				869500E0166CBDA000E3319E /* i_nigma_sdk.h */,
+				869500E1166CBDA000E3319E /* libi_nigmaSdk.a */,
+				869500E2166CBDA000E3319E /* libi_nigmaSdk_simulator.a */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		860E83CA16677760005FE351 /* LoginTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860E83EF16677760005FE351 /* Build configuration list for PBXNativeTarget "LoginTest" */;
+			buildPhases = (
+				860E83C716677760005FE351 /* Sources */,
+				860E83C816677760005FE351 /* Frameworks */,
+				860E83C916677760005FE351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginTest;
+			productName = LoginTest;
+			productReference = 860E83CB16677760005FE351 /* LoginTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		860E83C216677760005FE351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ian Bettison";
+			};
+			buildConfigurationList = 860E83C516677760005FE351 /* Build configuration list for PBXProject "LoginTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 860E83C016677760005FE351;
+			productRefGroup = 860E83CC16677760005FE351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				860E83CA16677760005FE351 /* LoginTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		860E83C916677760005FE351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860E83DA16677760005FE351 /* InfoPlist.strings in Resources */,
+				860E83E216677760005FE351 /* Default.png in Resources */,
+				860E83E416677760005FE351 /* Default@2x.png in Resources */,
+				860E83E616677760005FE351 /* Default-568h@2x.png in Resources */,
+				860E83E916677760005FE351 /* MainStoryboard.storyboard in Resources */,
+				86978B1D1668EA7700CEC49D /* MenuItems.plist in Resources */,
+				869500E4166CBDA000E3319E /* i-nigmaSdk_iPhone_1.49.doc in Resources */,
+				8695014F166CF4DD00E3319E /* scan_button.png in Resources */,
+				86950155166D189100E3319E /* double_beep.aif in Resources */,
+				8698C4C6166E0845007704BE /* store-scanner-beep.mp3 in Resources */,
+				8698C4D5166E3207007704BE /* click.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		860E83C716677760005FE351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860E83DC16677760005FE351 /* main.m in Sources */,
+				860E83E016677760005FE351 /* AppDelegate.m in Sources */,
+				860E83EC16677760005FE351 /* ViewController.m in Sources */,
+				860E83F416677A82005FE351 /* LoggedInViewController.m in Sources */,
+				869500B9166CBD3300E3319E /* ScanViewController.mm in Sources */,
+				869500E3166CBDA000E3319E /* Scanner.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		860E83D816677760005FE351 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860E83D916677760005FE351 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		860E83E716677760005FE351 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860E83E816677760005FE351 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		860E83ED16677760005FE351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		860E83EE16677760005FE351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		860E83F016677760005FE351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginTest/LoginTest-Prefix.pch";
+				INFOPLIST_FILE = "LoginTest/LoginTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../inigmaSDKDemo/inigmaSDKDemo/SDK\"",
+					"\"$(SRCROOT)/SDK\"",
+					"\"$(SRCROOT)/inigmaSDKDemo/SDK\"",
+					"\"$(SRCROOT)/LoginTest/SDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		860E83F116677760005FE351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginTest/LoginTest-Prefix.pch";
+				INFOPLIST_FILE = "LoginTest/LoginTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../inigmaSDKDemo/inigmaSDKDemo/SDK\"",
+					"\"$(SRCROOT)/SDK\"",
+					"\"$(SRCROOT)/inigmaSDKDemo/SDK\"",
+					"\"$(SRCROOT)/LoginTest/SDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		860E83C516677760005FE351 /* Build configuration list for PBXProject "LoginTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860E83ED16677760005FE351 /* Debug */,
+				860E83EE16677760005FE351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860E83EF16677760005FE351 /* Build configuration list for PBXNativeTarget "LoginTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860E83F016677760005FE351 /* Debug */,
+				860E83F116677760005FE351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 860E83C216677760005FE351 /* Project object */;
+}
