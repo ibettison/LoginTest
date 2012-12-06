@@ -49,7 +49,7 @@
     // Download and parse the JSON
     // need to do this on another thread
     [self.progressIndicator startAnimating];
-    NSData *JSONData = [[NSData alloc] initWithContentsOfURL:searchURL];//executes on 1st thread
+    NSData *JSONData = [[NSData alloc] initWithContentsOfURL:searchURL];
     if ([JSONData length] > 0) {
         // If data was returned, parse it as JSON
         NSError *error = nil;
@@ -89,7 +89,7 @@
             return YES;
         }
     }
-    return YES;
+    return NO;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue
