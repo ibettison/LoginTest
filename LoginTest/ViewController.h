@@ -20,4 +20,5 @@
 - (BOOL)checkloginDetails:(NSString *)email withPassword:(NSString *)password;
 
 
+
 @end
