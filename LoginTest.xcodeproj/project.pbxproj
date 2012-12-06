@@ -19,9 +19,7 @@
 		860E83E916677760005FE351 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860E83E716677760005FE351 /* MainStoryboard.storyboard */; };
 		860E83EC16677760005FE351 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 860E83EB16677760005FE351 /* ViewController.m */; };
 		860E83F416677A82005FE351 /* LoggedInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 860E83F316677A82005FE351 /* LoggedInViewController.m */; };
-		863281921670F31500018D93 /* scan_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8632818E1670F31500018D93 /* scan_button.png */; };
-		863281931670F31500018D93 /* ScanViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 863281901670F31500018D93 /* ScanViewController.mm */; };
-		863281941670F31500018D93 /* store-scanner-beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 863281911670F31500018D93 /* store-scanner-beep.mp3 */; };
+		869500B9166CBD3300E3319E /* ScanViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 869500B8166CBD3300E3319E /* ScanViewController.mm */; };
 		869500E3166CBDA000E3319E /* Scanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 869500DC166CBDA000E3319E /* Scanner.cpp */; };
 		869500E4166CBDA000E3319E /* i-nigmaSdk_iPhone_1.49.doc in Resources */ = {isa = PBXBuildFile; fileRef = 869500DF166CBDA000E3319E /* i-nigmaSdk_iPhone_1.49.doc */; };
 		869500E5166CBDA000E3319E /* libi_nigmaSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 869500E1166CBDA000E3319E /* libi_nigmaSdk.a */; };
@@ -29,8 +27,10 @@
 		869500E8166CBE9E00E3319E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869500E7166CBE9E00E3319E /* AVFoundation.framework */; };
 		869500EA166CBEBD00E3319E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869500E9166CBEBD00E3319E /* CoreVideo.framework */; };
 		869500EC166CBED700E3319E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869500EB166CBED700E3319E /* CoreMedia.framework */; };
+		8695014F166CF4DD00E3319E /* scan_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8695014E166CF4DD00E3319E /* scan_button.png */; };
 		86950155166D189100E3319E /* double_beep.aif in Resources */ = {isa = PBXBuildFile; fileRef = 86950154166D189100E3319E /* double_beep.aif */; };
 		86978B1D1668EA7700CEC49D /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86978B1C1668EA7700CEC49D /* MenuItems.plist */; };
+		8698C4C6166E0845007704BE /* store-scanner-beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8698C4C5166E0845007704BE /* store-scanner-beep.mp3 */; };
 		8698C4D5166E3207007704BE /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8698C4D4166E3207007704BE /* click.wav */; };
 /* End PBXBuildFile section */
 
@@ -53,10 +53,8 @@
 		860E83EB16677760005FE351 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = LoginTest/ViewController.m; sourceTree = "<group>"; };
 		860E83F216677A82005FE351 /* LoggedInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggedInViewController.h; path = LoginTest/LoggedInViewController.h; sourceTree = "<group>"; };
 		860E83F316677A82005FE351 /* LoggedInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggedInViewController.m; path = LoginTest/LoggedInViewController.m; sourceTree = "<group>"; };
-		8632818E1670F31500018D93 /* scan_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scan_button.png; path = LoginTest/scan_button.png; sourceTree = "<group>"; };
-		8632818F1670F31500018D93 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScanViewController.h; path = LoginTest/ScanViewController.h; sourceTree = "<group>"; };
-		863281901670F31500018D93 /* ScanViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ScanViewController.mm; path = LoginTest/ScanViewController.mm; sourceTree = "<group>"; };
-		863281911670F31500018D93 /* store-scanner-beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "store-scanner-beep.mp3"; path = "LoginTest/store-scanner-beep.mp3"; sourceTree = "<group>"; };
+		869500B7166CBD3300E3319E /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		869500B8166CBD3300E3319E /* ScanViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScanViewController.mm; sourceTree = "<group>"; };
 		869500DC166CBDA000E3319E /* Scanner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scanner.cpp; sourceTree = "<group>"; };
 		869500DD166CBDA000E3319E /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
 		869500DF166CBDA000E3319E /* i-nigmaSdk_iPhone_1.49.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-nigmaSdk_iPhone_1.49.doc"; sourceTree = "<group>"; };
@@ -66,8 +64,10 @@
 		869500E7166CBE9E00E3319E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		869500E9166CBEBD00E3319E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		869500EB166CBED700E3319E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8695014E166CF4DD00E3319E /* scan_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan_button.png; sourceTree = "<group>"; };
 		86950154166D189100E3319E /* double_beep.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = double_beep.aif; path = LoginTest/double_beep.aif; sourceTree = "<group>"; };
 		86978B1C1668EA7700CEC49D /* MenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuItems.plist; sourceTree = "<group>"; };
+		8698C4C5166E0845007704BE /* store-scanner-beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "store-scanner-beep.mp3"; sourceTree = "<group>"; };
 		8698C4D4166E3207007704BE /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,12 +150,12 @@
 		86950079166CA5FD00E3319E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8632818F1670F31500018D93 /* ScanViewController.h */,
-				863281901670F31500018D93 /* ScanViewController.mm */,
 				860E83F216677A82005FE351 /* LoggedInViewController.h */,
 				860E83F316677A82005FE351 /* LoggedInViewController.m */,
 				860E83EA16677760005FE351 /* ViewController.h */,
 				860E83EB16677760005FE351 /* ViewController.m */,
+				869500B7166CBD3300E3319E /* ScanViewController.h */,
+				869500B8166CBD3300E3319E /* ScanViewController.mm */,
 			);
 			name = "View Controllers";
 			path = ..;
@@ -164,10 +164,10 @@
 		8695007E166CA65200E3319E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8632818E1670F31500018D93 /* scan_button.png */,
-				863281911670F31500018D93 /* store-scanner-beep.mp3 */,
 				8698C4D4166E3207007704BE /* click.wav */,
+				8698C4C5166E0845007704BE /* store-scanner-beep.mp3 */,
 				86950154166D189100E3319E /* double_beep.aif */,
+				8695014E166CF4DD00E3319E /* scan_button.png */,
 				860E83E116677760005FE351 /* Default.png */,
 				860E83E316677760005FE351 /* Default@2x.png */,
 				860E83E516677760005FE351 /* Default-568h@2x.png */,
@@ -254,10 +254,10 @@
 				860E83E916677760005FE351 /* MainStoryboard.storyboard in Resources */,
 				86978B1D1668EA7700CEC49D /* MenuItems.plist in Resources */,
 				869500E4166CBDA000E3319E /* i-nigmaSdk_iPhone_1.49.doc in Resources */,
+				8695014F166CF4DD00E3319E /* scan_button.png in Resources */,
 				86950155166D189100E3319E /* double_beep.aif in Resources */,
+				8698C4C6166E0845007704BE /* store-scanner-beep.mp3 in Resources */,
 				8698C4D5166E3207007704BE /* click.wav in Resources */,
-				863281921670F31500018D93 /* scan_button.png in Resources */,
-				863281941670F31500018D93 /* store-scanner-beep.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +272,8 @@
 				860E83E016677760005FE351 /* AppDelegate.m in Sources */,
 				860E83EC16677760005FE351 /* ViewController.m in Sources */,
 				860E83F416677A82005FE351 /* LoggedInViewController.m in Sources */,
+				869500B9166CBD3300E3319E /* ScanViewController.mm in Sources */,
 				869500E3166CBDA000E3319E /* Scanner.cpp in Sources */,
-				863281931670F31500018D93 /* ScanViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +359,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/../inigmaSDKDemo/inigmaSDKDemo/SDK\"",
+					"\"$(SRCROOT)/SDK\"",
+					"\"$(SRCROOT)/inigmaSDKDemo/SDK\"",
 					"\"$(SRCROOT)/LoginTest/SDK\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,6 +380,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/../inigmaSDKDemo/inigmaSDKDemo/SDK\"",
+					"\"$(SRCROOT)/SDK\"",
+					"\"$(SRCROOT)/inigmaSDKDemo/SDK\"",
 					"\"$(SRCROOT)/LoginTest/SDK\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
