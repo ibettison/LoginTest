@@ -19,4 +19,5 @@
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *progressIndicator;
 - (BOOL)checkloginDetails:(NSString *)email withPassword:(NSString *)password;
 
+
 @end
